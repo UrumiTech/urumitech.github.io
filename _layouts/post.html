@@ -75,7 +75,7 @@ layout: default
             {{- tag -}}
           </a>
           {% endfor %}
-          </div>
+        </div>
         {% endif %}
 
         <div class="post-tail-bottom
@@ -96,7 +96,6 @@ layout: default
 
     </div> <!-- .post -->
 
-
   </div> <!-- #post-wrapper -->
 
   {% assign enable_toc = false %}
@@ -109,7 +108,8 @@ layout: default
 
   {% include panel.html toc=enable_toc %}
 
-</div> <!-- .row -->
+  
+</div>
 
 <div class="row">
   <div class="col-12 col-lg-11 col-xl-8">
@@ -126,5 +126,4 @@ layout: default
     </div> <!-- #post-extend-wrapper -->
 
   </div> <!-- .col-* -->
-
 </div> <!-- .row -->

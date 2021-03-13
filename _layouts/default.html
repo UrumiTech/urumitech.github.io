@@ -24,9 +24,7 @@ layout: compress
     <div id="main-wrapper">
       <div id="main">
 
-        {% include refactor-content.html content=content %}
-
-        {% include footer.html %}
+        {% include refactor-content.html content=content %}        
 
       </div>
 
@@ -43,7 +41,7 @@ layout: compress
     <a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button">
       <i class="fas fa-angle-up"></i>
     </a>
-
+    {% include footer.html %}
     {% include search-loader.html %}
     {% include cookie-consent.html %}
     {% include google-analytics.html %}

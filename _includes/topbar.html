@@ -8,7 +8,10 @@
 
     {% assign paths = page.url | split: '/' %}
 
-    {% if paths.size == 0 %}
+    {% if page.title contains "Home" %}
+    <!-- index page -->
+    <span>{{   }}</span>
+    {% elsif paths.size == 0 %}
       <!-- index page -->
       <span>{{ 'Posts' }}</span>
     {% else %}

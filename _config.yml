@@ -169,7 +169,7 @@ exclude:
   - package-lock.json
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: []
   layouts:
     category: category
     tag: tag
