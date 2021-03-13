@@ -29,11 +29,13 @@ url: ''
 
 author: Urumi Tech Limited                  # change to your full name
 
+cdnurl: 'https://cdn.urumitech.com'
+
 github:
-  username: github_username             # change to your github username
+  username: urumitech             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: urumitech            # change to your twitter username
 
 social:
   name: Urumi Tech Limited.                  # it will shows as the copyright owner in Footer
@@ -43,16 +45,15 @@ social:
     - https://twitter.com/urumitech      # change to your twitter homepage
     - https://github.com/urumitech       # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.facebook.com/urumitech
+    - https://www.linkedin.com/company/urumitech/
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification: '6nQ3ur8tX5iNRyR5mfNtI8Y7mLRB7vzCAT6G6AuzNeY' # change to your verification string
 # --------------------------
 
 google_analytics:
   id: 'G-YYERSM89BD'          # Fill with your Google Analytics ID
-  tag_manager:
-    id:'GTM-KMXV46N'
+  tagmanagerid: 'GTM-KMXV46N'
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
