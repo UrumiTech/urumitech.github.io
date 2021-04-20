@@ -2,6 +2,8 @@
   Post-specific style
 */
 
+@import "../colors/urumi-pallete";
+
 @mixin btn-sharing-color($light-color, $important: false) {
   @if $important {
     color: var(--btn-share-color, $light-color) !important;
@@ -148,6 +150,17 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
+#toc li > a.active {
+  color: $high-light ;
+  border-color: $high-light!important;
+}
+
+#toc li > a:hover {
+  color: $high-light;
+  border-color: $high-light;
+}
+
 
 /* --- Related Posts --- */
 
