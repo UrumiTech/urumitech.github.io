@@ -22,8 +22,8 @@
 #   url:  ''                  # Fill with your mastodon account page
 -
   type: linkedin
-  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.linkedin.com/company/urumitech/about'                  # Fill with your Linkedin homepage
+  icon: 'fab fa-linkedin'   
+  url:  'https://www.linkedin.com/company/urumitech/about'
 # -
 #   type: stack-overflow
 #   icon: 'fab fa-stack-overflow'

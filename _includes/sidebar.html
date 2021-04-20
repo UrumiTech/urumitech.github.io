@@ -15,8 +15,8 @@
           {%- else -%}
             {{ site.avatar | relative_url }}
           {%- endif -%}
-        {% endcapture %}        
-        ഉ    
+        {% endcapture %}
+        <img src="{{ avatar_url }}" alt="avatar" onerror="this.style.display='none'">
       </a>
     </div>
 
@@ -87,5 +87,5 @@
     {% endunless %}
 
   </div> <!-- .sidebar-bottom -->
-  
+
 </div><!-- #sidebar -->
