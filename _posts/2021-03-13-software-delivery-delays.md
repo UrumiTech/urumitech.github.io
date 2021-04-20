@@ -1,7 +1,7 @@
 ---
 title: Software Delivery Delays
 author: Krishnan Nath
-date: 2021-03-13 18:00:00 +0000
+date: 2021-04-19 18:00:00 +0000
 categories: [Agile, Pinned]
 tags: [Software Delivery, Software Devlopment Team]
 pin: true
@@ -20,7 +20,7 @@ If the above phrase is said regularly regarding a Software project you have had 
 
 #### Software is not a revenue generator
 
-Unless you are tech start up, your main business revenue is not coming from the internal software development team. As a result, these teams tend to become neglected or misunderstood. These teams tend to be started to reduce costs as hiring a third party to maintain an application may become cost prohibitive over time. The application this team looks after does not bring in any revenue but is used by the entire organisation. 
+Unless you are tech start up, your main business revenue is not coming from the internal software development team. As a result, these teams tend to become neglected or misunderstood. These teams tend to be started to reduce costs as hiring a third party to maintain an application may become cost prohibitive over time. The application, this team looks after does not bring in any revenue but is used by the entire organisation. 
 
 #### Agile is only for Developers
 Modern Development teams tend to work using Agile methodologies. Most organisations do not like Agile Methodologies because of a perceived loss of control of what the developers are doing. Sometimes Agile methodologies are detested because the organisation works due to the personalities rather than a set of processes.
