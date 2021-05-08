@@ -1,12 +1,10 @@
 ---
-layout: post
 author: Krishnan Nath
 title: Starting Rust - Overview
-categories: Rust, Software Development
-tags:
-- Rust
-- Overview
-image: https://cdn.urumitech.com/assets/img/Rust/rust-logo-blk.svg
+categories: [Rust, Software Development]
+tags: [Rust, Overview]
+image: 
+    src: https://cdn.urumitech.com/assets/img/Rust/rust-logo-blk.svg
 date: 2021-05-08 17:49 +0100
 ---
 # Starting Rust
