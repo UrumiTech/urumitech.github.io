@@ -2,7 +2,7 @@
 title: Software Delivery Delays
 author: Krishnan Nath
 date: 2021-04-19 18:00:00 +0000
-categories: [Agile, Pinned]
+categories: [Agile, Software-Delivery, Pinned]
 tags: [Software Delivery, Software Development Team]
 pin: true
 ---

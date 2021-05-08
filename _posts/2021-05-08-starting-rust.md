@@ -1,13 +1,14 @@
 ---
 author: Krishnan Nath
 title: Starting Rust - Overview
-categories: [Rust, Software Development]
+categories: [Rust, Software-Development]
 tags: [Rust, Overview]
-image: 
-    src: https://cdn.urumitech.com/assets/img/Rust/rust-logo-blk.svg
 date: 2021-05-08 17:49 +0100
+pin: false
 ---
 # Starting Rust
+
+![Rust](https://cdn.urumitech.com/assets/img/Rust/rust-logo-blk.svg)
 
 ## What Is Rust?
 Rust is a multi-paradigm, read multiple classifications, programming language. It has been designed for performance and safety. It is especially concurrency safe. It is very similar to C++ syntactically, however it can guarantee memory safety by using a borrow checker to validate references. It achieves this without a garbage collector (GC). In Rust reference counting is optional. 
