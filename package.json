@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-theme-chirpy",
+  "name": "urumitech-website",
   "version": "3.3.2",
-  "description": "A minimal, sidebar, responsive web design Jekyll theme that focuses on text presentation.",
+  "description": "",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -16,9 +16,9 @@
   "author": "Cotes Chung",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
+    "url": "https://github.com/UrumiTech/urumitech.github.io/issues"
   },
-  "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy#readme",
+  "homepage": "https://github.com/UrumiTech/urumitech.github.io#readme",
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
