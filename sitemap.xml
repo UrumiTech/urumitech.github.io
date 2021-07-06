@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Urumi Tech</title>
+    <description>A resource for Dot.Net, C#, Rust, Software Engineering, Agile and any other musings about Software Development</description>
+    <link>/</link>
+    <atom:link href="/sitemap.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 06 Jul 2021 14:35:23 +0100</pubDate>
+    <lastBuildDate>Tue, 06 Jul 2021 14:35:23 +0100</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Starting Rust - Overview</title>
+        <description>&lt;h1 id=&quot;starting-rust&quot;&gt;Starting Rust&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.urumitech.com/assets/img/Rust/rust-logo-blk.svg&quot; alt=&quot;Rust&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-rust&quot;&gt;What Is Rust?&lt;/h2&gt;
+&lt;p&gt;Rust is a multi-paradigm, read multiple classifications, programming language. It has been designed for performance and safety. It is especially concurrency safe. It is very similar to C++ syntactically, however it can guarantee memory safety by using a borrow checker to validate references. It achieves this without a garbage collector (GC). In Rust reference counting is optional.&lt;/p&gt;
+
+&lt;h2 id=&quot;quick-history&quot;&gt;Quick History&lt;/h2&gt;
+&lt;p&gt;The Rust language started in 2006 as a personal project for an employee, named Graydon Hoare, of Mozilla. Rust 1.0 was release in 2015. 
+However in 2020 Mozilla had layoffs that affected the Rust team and Servo team. This led to the creation of the Rust Foundation by AWS, Huawei, Microsoft and Mozilla.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-should-you-use-rust&quot;&gt;Why should you use Rust?&lt;/h2&gt;
+&lt;p&gt;Rust is designed to be high concurrent and highly safe. Rust does not permit null pointers, dangling pointers or data races in safe code. Rust does not use automated garbage collection. Rust however provide a very low overhead deterministic management of resources.&lt;/p&gt;
+
+&lt;p&gt;So Rust should be used in system that need an emphasis on safety, control of memory layout and concurrency. Rust would really be suited for system that needs to be highly concurrent and transactional.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-it-object-oriented-or-functional&quot;&gt;Is it Object-Oriented or Functional?&lt;/h2&gt;
+&lt;p&gt;Rust is both. Due to it being influenced C and C++, Rust can accomodate to both paradigms. As language Rust does seem to be more functional than Object Oriented Programming.&lt;/p&gt;
+
+&lt;p&gt;However, that does not mean a developer from a Object Oriented Programming. Inheritance and Polymorphism can also be accomplished via the mechanism of a “trait”. Encapsulation can be accomplished by using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;private&lt;/code&gt; keyword.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-hard-is-it-to-learn-rust&quot;&gt;How hard is it to learn Rust?&lt;/h2&gt;
+&lt;p&gt;Rust basics is relatively easy to understand for anyone who has experience with some software development. If you have learned a either Java, Javascript or C#, the syntax is easily understandable and your previous skills are very transferrable. There are lot of common keywords and concepts to the above mentioned languages, the initial learn curve would not be very steep.&lt;/p&gt;
+
+&lt;p&gt;Learning the advanced concepts of Rust is like climbing a very tall mountain. Traits are difficult concept and will require a lot investigation to understand it. Memory safety will catch even experienced developers out. Then there are concepts like “Ownership”, “Borrowing” and “Lifetimes”, these are some of the most difficult concepts to understand.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rust can be an easy language to learn and build really useful applications. The key to start small and practice frequently.&lt;/li&gt;
+  &lt;li&gt;It has been designed with memory safety and high concurrency means that you should build very well designed applications.&lt;/li&gt;
+  &lt;li&gt;It is well supported by key platform providers&lt;/li&gt;
+  &lt;li&gt;It is operating system agnostic&lt;/li&gt;
+  &lt;li&gt;The syntax is very similar ot C++, Java and C#. So it should appeal to a wide community of software developers who looking for a new language to learn.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 08 May 2021 17:49:00 +0100</pubDate>
+        <link>/posts/starting-rust/</link>
+        <guid isPermaLink="true">/posts/starting-rust/</guid>
+        
+        <category>Rust</category>
+        
+        <category>Overview</category>
+        
+        
+        <category>Rust</category>
+        
+        <category>Software-Development</category>
+        
+      </item>
+    
+      <item>
+        <title>Software Delivery Delays</title>
+        <description>&lt;p&gt;Delivering software is not the easiest thing to accomplish. A lot can go wrong with the project and the development team. In this article, we will give some easy fixes to get things back on track.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-is-delayed-again&quot;&gt;“Project Is Delayed Again!!!”&lt;/h2&gt;
+
+&lt;p&gt;If the above phrase is said regularly regarding a Software project you have had going on for a long time, then you need to address a few key things in your organisation.&lt;/p&gt;
+
+&lt;h3 id=&quot;business-issues&quot;&gt;Business Issues&lt;/h3&gt;
+
+&lt;h4 id=&quot;software-is-not-a-revenue-generator&quot;&gt;Software is not a revenue generator&lt;/h4&gt;
+
+&lt;p&gt;Unless you are tech start up, your main business revenue is not coming from the internal software development team. As a result, these teams tend to become neglected or misunderstood. These teams tend to be started to reduce costs as hiring a third party to maintain an application may become cost prohibitive over time. The application, this team looks after does not bring in any revenue but is used by the entire organisation.&lt;/p&gt;
+
+&lt;h4 id=&quot;agile-is-only-for-developers&quot;&gt;Agile is only for Developers&lt;/h4&gt;
+&lt;p&gt;Modern Development teams tend to work using Agile methodologies. Most organisations do not like Agile Methodologies because of a perceived loss of control of what the developers are doing. Sometimes Agile methodologies are detested because the organisation works due to the personalities rather than a set of processes.&lt;/p&gt;
+
+&lt;h4 id=&quot;not-understanding-how-an-application-is-made&quot;&gt;Not understanding how an application is made&lt;/h4&gt;
+&lt;p&gt;Most organisations see internal software teams like the electricity in the building. For most businesses, software built by these teams should just work, changes are seamless and deployments occur without down time. All the points above are possible for even a small software delivery team. However, due to how an organisation uses its software delivery team these are pipe dreams, rather than reality.&lt;/p&gt;
+
+&lt;h4 id=&quot;not-realising-the-scope-of-a-software-project&quot;&gt;Not realising the scope of a software project&lt;/h4&gt;
+&lt;p&gt;A lot of the time, software projects are delayed as the business has simply underestimated the scope of the project.&lt;/p&gt;
+
+&lt;h3 id=&quot;software-delivery-team-issues&quot;&gt;Software Delivery Team Issues&lt;/h3&gt;
+
+&lt;h4 id=&quot;siloes&quot;&gt;Siloes&lt;/h4&gt;
+&lt;p&gt;For many software delivery teams, work becomes siloed. People over time become domain experts and thus take ownership over an application or part of an application. This can lead to siloes of work, especially if the wrong type of person is the owner. Siloes of work are bad, as they essentially create a single point of failure for your entire delivery process.&lt;/p&gt;
+
+&lt;h4 id=&quot;technical-debt&quot;&gt;Technical Debt&lt;/h4&gt;
+&lt;p&gt;When a team builds software, ideally it should be well engineered and extendable. However, due to constraints, a team will deploy a quick fix instead. It is like using a credit card to buy something that you need, but currently cannot afford. For most people, as long as they pay of the balance at the end of the month, they do not incur any additional costs. Technical Debt is analogous to using a credit card. Should a team not pay of the Technical Debt in a timely manner, the Technical Debt will increase exponentially. Ultimately the software project will reach a point where it will need to be rewritten.&lt;/p&gt;
+
+&lt;h3 id=&quot;shared-issues&quot;&gt;Shared Issues&lt;/h3&gt;
+
+&lt;h4 id=&quot;excessive-scope-creep&quot;&gt;Excessive Scope Creep&lt;/h4&gt;
+&lt;p&gt;Excessive Scope Creep is hidden enemy of delivering software projects. There will always be a level of scope creep in all projects, it is to be expected. Should scope creep not be managed well, it can cause complete stagnation of a project. The main causes of excessive scope creep are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The business not understanding the full ramifications of a particular change.&lt;/li&gt;
+  &lt;li&gt;Developers underestimating the complexity of a task or story.&lt;/li&gt;
+  &lt;li&gt;Project Stakeholders changing their minds within a small-time frame.&lt;/li&gt;
+  &lt;li&gt;Project Leads and project Managers not managing Project Stakeholders.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;All these issues can be mitigated by applying sensible Agile Practices.&lt;/p&gt;
+
+&lt;h2 id=&quot;7-rules-for-getting-your-software-project-back-on-track&quot;&gt;7 Rules for Getting Your Software Project Back on Track&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;List out all your work, regardless of the size or effort of the work.&lt;/li&gt;
+  &lt;li&gt;Build mission teams and set a delivery cadence.&lt;/li&gt;
+  &lt;li&gt;Make sure your software delivery team are empowered to pay off any bad Technical Debt.&lt;/li&gt;
+  &lt;li&gt;Review the work regularly and be honest about the project progress.&lt;/li&gt;
+  &lt;li&gt;Make small, manageable improvements to delivery process.&lt;/li&gt;
+  &lt;li&gt;“Feature Delivered” must mean the end user can use the feature.&lt;/li&gt;
+  &lt;li&gt;Celebrate your deliveries.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;For software projects to fail, it is, almost, never caused by a particular technology. Software project failures are, almost, always caused by miscommunication between those who sponsor the project and those who implement the project. Improving communication and building good Software Delivery processes into the team will ensure that these failures are never catastrophic. Keeping this simple and easily understandable by both the Stakeholders and the implementers&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Apr 2021 19:00:00 +0100</pubDate>
+        <link>/posts/software-delivery-delays/</link>
+        <guid isPermaLink="true">/posts/software-delivery-delays/</guid>
+        
+        <category>Software Delivery</category>
+        
+        <category>Software Development Team</category>
+        
+        
+        <category>Agile</category>
+        
+        <category>Software-Delivery</category>
+        
+        <category>Pinned</category>
+        
+      </item>
+    
+  </channel>
+</rss>
